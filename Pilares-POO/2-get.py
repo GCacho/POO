@@ -3,7 +3,7 @@ class A():
         self._cuenta = 0        #Un solo guion bajo es para hacerle entender a otros programadores
         self._contador = 0      #que es un dato encapsulado
     
-    @property                   #Decorador: Le decimos a python que este es un metodo get para poder mandar a llamarlo como atributo ejemplo: print(a.cuenta) en lugar de print(a.cuenta()) *nos desasemos del parentesis nada mas* 
+    @property                   #Decorador para getter: Le decimos a python que este es un metodo get para poder mandar a llamarlo como atributo ejemplo: print(a.cuenta) en lugar de print(a.cuenta()) *nos desasemos del parentesis nada mas* 
     def cuenta(self):
         return self._cuenta     #Este es un ejemplo de metodo get
 
